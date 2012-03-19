@@ -1,7 +1,136 @@
-<h1>zRoto</h1>
-<%= form_tag candidates_path, :method => :get do %>
-    <p>
-      <%= text_field_tag :search, params[:search] %>
-      <%= submit_tag "Search", :name => nil %>
-    </p>
-<% end %>
+<div id="headertab">
+</div>
+<div id="bottom-bg">
+  <div id="search">
+    <div class="inner">
+      <div id="logo">
+        <img src="assets/logo.png" />
+      </div>
+      <div id="search-box">
+        <input class="keyword" type="text" id="Text1" placeholder="Type in a profession...">
+        <input class="location" type="text" id="Text1" placeholder="Location" >
+        <button id="button-search">List talents</button>
+      </div>
+    </div>
+  </div>
+  <div id="rwslayout">
+    <!-- Main Layout Div Starts -->
+    <ul id="submenu">
+      <li class="checkbox"><input type="checkbox" id="Checkbox4"></li>
+      <li class="select">Select listings</li>
+      <li class="send-message"><a href="#">Message listings</a></li>
+      <li class="bookmark-item"><a href="#">Bookmark listings</a></li>
+    </ul>
+    <div id="results">
+      <div class="single-result">
+        <div class="checkbox">
+          <input type="checkbox" id="Checkbox1">
+        </div>
+        <div class="action-links-container">
+          <ul class="action-links">
+            <li class="bookmark-item"><a href="#">Bookmark</a></li>
+            <li class="send-message"><a href="#">Message</a></li>
+            <li class="get-resume"><a href="#">Get resume</a></li>
+          </ul>
+        </div>
+        <div class="picture">
+          <img alt="pic" src="assets/pic.jpg" class="pic">
+        </div>
+        <div class="content clearfix">
+          <h1 class="position"><a href="#">Marketing Manager</a></h1>
+          <p class="description">
+            “Amazing marketing guy with a track record of successful campaigns”, IBM, Microsoft,
+            Cisco Systems, 12 Yrs Wexp , Employee of the month 8 times , IBM thinkpad &ndash; asian
+            launch , Xbox &ndash; branding, perception mapping
+          </p>
+          <div class="tags">
+            <span class="tag">Microsof</span>
+            <span class="tag">Ibm</span>
+            <span class="tag">Zynga</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-result clearfix">
+        <div class="checkbox">
+          <input type="checkbox" id="Checkbox2">
+        </div>
+        <div class="action-links-container">
+          <ul class="action-links">
+            <li class="bookmark-item"><a href="#">Bookmark</a></li>
+            <li class="send-message"><a href="#">Message</a></li>
+            <li class="get-resume"><a href="#">Get resume</a></li>
+          </ul>
+        </div>
+        <div class="picture">
+          <img alt="pic" src="assets/pic2.jpg" class="pic">
+        </div>
+        <div class="content clearfix">
+          <h1 class="position">Marketing &amp; Sales Guy</h1>
+          <p class="description">
+            Marketing , Sales , Advertising , Branding , Direct Selling &amp; Promotions &ndash; have done it all and done it well , 15 yrs Wexp, 7/11, Spencers Retail , Wal Mart , Tim Hortons, Startup &ndash; Voicebag, I am the ‘Take your product to market guy’ Penn State Univ &ndash; Advert &amp; communications grad
+          </p>
+          <div class="tags">
+            <span class="tag">Microsof</span>
+            <span class="tag">Ibm</span>
+            <span class="tag">Zynga</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-result">
+        <div class="checkbox">
+          <input type="checkbox" id="Checkbox3">
+        </div>
+        <div class="action-links-container">
+          <ul class="action-links">
+            <li class="bookmark-item"><a href="#">Bookmark</a></li>
+            <li class="send-message"><a href="#">Message</a></li>
+            <li class="get-resume"><a href="#">Get resume</a></li>
+          </ul>
+        </div>
+        <div class="picture">
+          <img alt="pic" src="assets/pic3.jpg" class="pic">
+        </div>
+        <div class="content  clearfix">
+          <h1 class="position">Innovative Product Marketing Guy</h1>
+          <p class="description">Google &ndash; Conceptual Gadgets, Yahoo &ndash; Yahoo Libraries, CISCO &ndash; Firewall Security System
+          </p>
+          <div class="tags">
+            <span class="tag">Microsof</span>
+            <span class="tag">Ibm</span>
+            <span class="tag">Zynga</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-result">
+        <div class="checkbox">
+          <input type="checkbox" id="Checkbox5">
+        </div>
+        <div class="action-links-container">
+          <ul class="action-links">
+            <li class="bookmark-item"><a href="#">Bookmark</a></li>
+            <li class="send-message"><a href="#">Message</a></li>
+            <li class="get-resume"><a href="#">Get resume</a></li>
+          </ul>
+        </div>
+        <div class="picture">
+          <img alt="pic" src="assets/pic4.jpg" class="pic">
+        </div>
+        <div class="content clearfix">
+          <h1 class="position">Sr. Marketing Manager</h1>
+          <p class="description">Motorola, Brand Mgr &ndash; Net Manage, 16 yrs Wexp, Tepper School Biz, Ad &amp; Direct marketing Campaigns , managed cross functional teams for campaign delivery , Wels Fargo &ndash; Product Mgr, 17 29 LinkedIn Recommendations for my work “ I must be good “
+          </p>
+          <div class="tags">
+            <span class="tag">Microsof</span>
+            <span class="tag">Ibm</span>
+            <span class="tag">Zynga</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sidebar">
+    </div>
+  </div>
+</div>
