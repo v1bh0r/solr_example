@@ -7,7 +7,7 @@ gem "mocha", :group => :test
 gem "bcrypt-ruby", :require => "bcrypt"
 gem 'sunspot_rails'
 gem 'sunspot_solr'
-gem 'progress_bar', :group => :development
+gem 'progress_bar'
 gem "roo"
 
 # Bundle edge Rails instead:
