@@ -1,0 +1,72 @@
+<h1><%= link_to 'zRoto', root_path  %></h1>
+<%= form_tag candidates_path, :method => :get do %>
+    <p>
+      <%= text_field_tag :search, params[:search] %>
+      <%= submit_tag "Search", :name => nil %>
+    </p>
+<% end %>
+
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Address</th>
+    <th>Phone Number</th>
+    <th>Alt Phone Numbers</th>
+    <th>Date Of Birth</th>
+    <th>Functional Area</th>
+    <th>Specialization</th>
+    <th>Industry</th>
+    <th>Resume Title</th>
+    <th>Key Skills</th>
+    <th>Work Experience</th>
+    <th>Current Employer</th>
+    <th>Previous Employer</th>
+    <th>Current Salary</th>
+    <th>Seniority Level</th>
+    <th>Location</th>
+    <th>Preferred Locations</th>
+    <th>Education</th>
+    <th>Education Spl</th>
+    <th>Education2</th>
+    <th>Education2 Spl</th>
+    <th>Last Activity On</th>
+    <th>Gender</th>
+    <th>Resume Location</th>
+  </tr>
+  <% for candidate in @candidates %>
+    <tr>
+      <td><%= candidate.name %></td>
+      <td><%= candidate.email %></td>
+      <td><%= candidate.address %></td>
+      <td><%= candidate.phone_number %></td>
+      <td><%= candidate.alt_phone_numbers %></td>
+      <td><%= candidate.date_of_birth %></td>
+      <td><%= candidate.functional_area %></td>
+      <td><%= candidate.specialization %></td>
+      <td><%= candidate.industry %></td>
+      <td><%= candidate.resume_title %></td>
+      <td><%= candidate.key_skills %></td>
+      <td><%= candidate.work_experience %></td>
+      <td><%= candidate.current_employer %></td>
+      <td><%= candidate.previous_employer %></td>
+      <td><%= candidate.current_salary %></td>
+      <td><%= candidate.seniority_level %></td>
+      <td><%= candidate.location %></td>
+      <td><%= candidate.preferred_locations %></td>
+      <td><%= candidate.education %></td>
+      <td><%= candidate.education_spl %></td>
+      <td><%= candidate.education2 %></td>
+      <td><%= candidate.education2_spl %></td>
+      <td><%= candidate.last_activity_on %></td>
+      <td><%= candidate.gender %></td>
+      <td><%= candidate.resume_location %></td>
+      <td><%= link_to "Show", candidate %></td>
+      <td><%= link_to "Edit", edit_candidate_path(candidate) %></td>
+      <td><%= link_to "Destroy", candidate, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Candidate", new_candidate_path %></p>

@@ -1,0 +1,104 @@
+<%= form_for @candidate do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.label :address %><br />
+    <%= f.text_field :address %>
+  </p>
+  <p>
+    <%= f.label :phone_number %><br />
+    <%= f.text_field :phone_number %>
+  </p>
+  <p>
+    <%= f.label :alt_phone_numbers %><br />
+    <%= f.text_field :alt_phone_numbers %>
+  </p>
+  <p>
+    <%= f.label :date_of_birth %><br />
+    <%= f.date_select :date_of_birth %>
+  </p>
+  <p>
+    <%= f.label :functional_area %><br />
+    <%= f.text_field :functional_area %>
+  </p>
+  <p>
+    <%= f.label :specialization %><br />
+    <%= f.text_field :specialization %>
+  </p>
+  <p>
+    <%= f.label :industry %><br />
+    <%= f.text_field :industry %>
+  </p>
+  <p>
+    <%= f.label :resume_title %><br />
+    <%= f.text_field :resume_title %>
+  </p>
+  <p>
+    <%= f.label :key_skills %><br />
+    <%= f.text_area :key_skills %>
+  </p>
+  <p>
+    <%= f.label :work_experience %><br />
+    <%= f.number_field :work_experience %>
+  </p>
+  <p>
+    <%= f.label :current_employer %><br />
+    <%= f.text_field :current_employer %>
+  </p>
+  <p>
+    <%= f.label :previous_employer %><br />
+    <%= f.text_field :previous_employer %>
+  </p>
+  <p>
+    <%= f.label :current_salary %><br />
+    <%= f.text_field :current_salary %>
+  </p>
+  <p>
+    <%= f.label :seniority_level %><br />
+    <%= f.text_field :seniority_level %>
+  </p>
+  <p>
+    <%= f.label :location %><br />
+    <%= f.text_field :location %>
+  </p>
+  <p>
+    <%= f.label :preferred_locations %><br />
+    <%= f.text_field :preferred_locations %>
+  </p>
+  <p>
+    <%= f.label :education %><br />
+    <%= f.text_field :education %>
+  </p>
+  <p>
+    <%= f.label :education_spl %><br />
+    <%= f.text_field :education_spl %>
+  </p>
+  <p>
+    <%= f.label :education2 %><br />
+    <%= f.text_field :education2 %>
+  </p>
+  <p>
+    <%= f.label :education2_spl %><br />
+    <%= f.text_field :education2_spl %>
+  </p>
+  <p>
+    <%= f.label :last_activity_on %><br />
+    <%= f.date_select :last_activity_on %>
+  </p>
+  <p>
+    <%= f.label :gender %><br />
+    <%= f.text_field :gender %>
+  </p>
+  <p>
+    <%= f.label :resume_location %><br />
+    <%= f.text_field :resume_location %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>

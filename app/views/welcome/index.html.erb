@@ -1,0 +1,7 @@
+<h1>zRoto</h1>
+<%= form_tag candidates_path, :method => :get do %>
+    <p>
+      <%= text_field_tag :search, params[:search] %>
+      <%= submit_tag "Search", :name => nil %>
+    </p>
+<% end %>

@@ -1,0 +1,108 @@
+<% title "Candidate" %>
+
+<p>
+  <strong>Name:</strong>
+  <%= @candidate.name %>
+</p>
+<p>
+  <strong>Email:</strong>
+  <%= @candidate.email %>
+</p>
+<p>
+  <strong>Address:</strong>
+  <%= @candidate.address %>
+</p>
+<p>
+  <strong>Phone Number:</strong>
+  <%= @candidate.phone_number %>
+</p>
+<p>
+  <strong>Alt Phone Numbers:</strong>
+  <%= @candidate.alt_phone_numbers %>
+</p>
+<p>
+  <strong>Date Of Birth:</strong>
+  <%= @candidate.date_of_birth %>
+</p>
+<p>
+  <strong>Functional Area:</strong>
+  <%= @candidate.functional_area %>
+</p>
+<p>
+  <strong>Specialization:</strong>
+  <%= @candidate.specialization %>
+</p>
+<p>
+  <strong>Industry:</strong>
+  <%= @candidate.industry %>
+</p>
+<p>
+  <strong>Resume Title:</strong>
+  <%= @candidate.resume_title %>
+</p>
+<p>
+  <strong>Key Skills:</strong>
+  <%= @candidate.key_skills %>
+</p>
+<p>
+  <strong>Work Experience:</strong>
+  <%= @candidate.work_experience %>
+</p>
+<p>
+  <strong>Current Employer:</strong>
+  <%= @candidate.current_employer %>
+</p>
+<p>
+  <strong>Previous Employer:</strong>
+  <%= @candidate.previous_employer %>
+</p>
+<p>
+  <strong>Current Salary:</strong>
+  <%= @candidate.current_salary %>
+</p>
+<p>
+  <strong>Seniority Level:</strong>
+  <%= @candidate.seniority_level %>
+</p>
+<p>
+  <strong>Location:</strong>
+  <%= @candidate.location %>
+</p>
+<p>
+  <strong>Preferred Locations:</strong>
+  <%= @candidate.preferred_locations %>
+</p>
+<p>
+  <strong>Education:</strong>
+  <%= @candidate.education %>
+</p>
+<p>
+  <strong>Education Spl:</strong>
+  <%= @candidate.education_spl %>
+</p>
+<p>
+  <strong>Education2:</strong>
+  <%= @candidate.education2 %>
+</p>
+<p>
+  <strong>Education2 Spl:</strong>
+  <%= @candidate.education2_spl %>
+</p>
+<p>
+  <strong>Last Activity On:</strong>
+  <%= @candidate.last_activity_on %>
+</p>
+<p>
+  <strong>Gender:</strong>
+  <%= @candidate.gender %>
+</p>
+<p>
+  <strong>Resume Location:</strong>
+  <%= @candidate.resume_location %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_candidate_path(@candidate) %> |
+  <%= link_to "Destroy", @candidate, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", candidates_path %>
+</p>

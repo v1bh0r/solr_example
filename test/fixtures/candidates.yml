@@ -1,0 +1,53 @@
+one:
+  name: MyString
+  email: MyString
+  address: 
+  phone_number: MyString
+  alt_phone_numbers: MyString
+  date_of_birth: 2012-03-18
+  functional_area: MyString
+  specialization: MyString
+  industry: MyString
+  resume_title: MyString
+  key_skills: MyText
+  work_experience: 1
+  current_employer: MyString
+  previous_employer: MyString
+  current_salary: MyString
+  seniority_level: MyString
+  location: MyString
+  preferred_locations: MyString
+  education: MyString
+  education_spl: MyString
+  education2: MyString
+  education2_spl: MyString
+  last_activity_on: 2012-03-18
+  gender: MyString
+  resume_location: MyString
+
+two:
+  name: MyString
+  email: MyString
+  address: 
+  phone_number: MyString
+  alt_phone_numbers: MyString
+  date_of_birth: 2012-03-18
+  functional_area: MyString
+  specialization: MyString
+  industry: MyString
+  resume_title: MyString
+  key_skills: MyText
+  work_experience: 1
+  current_employer: MyString
+  previous_employer: MyString
+  current_salary: MyString
+  seniority_level: MyString
+  location: MyString
+  preferred_locations: MyString
+  education: MyString
+  education_spl: MyString
+  education2: MyString
+  education2_spl: MyString
+  last_activity_on: 2012-03-18
+  gender: MyString
+  resume_location: MyString
