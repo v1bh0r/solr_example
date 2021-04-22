@@ -75,7 +75,7 @@ GEM
     mysql2 (0.3.11)
     nifty-generators (0.4.6)
     nokogiri (1.5.2)
-    oauth (0.4.5)
+    oauth (0.5.6)
     oauth2 (0.5.2)
       faraday (~> 0.7)
       multi_json (~> 1.0)
